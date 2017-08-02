@@ -61,10 +61,10 @@
         $("body").mouseover(function(e){
             //获取鼠标位置函数
             var mousePos = mousePosition(e);
-            var  xOffset = 20;
-            var  yOffset = 25;
+            var  xOffset = -15;
+            var  yOffset = 15;
             $("#tooltip").css("display","block").css("position","absolute").css("top",(mousePos.y - yOffset) + "px").css("left",(mousePos.x + xOffset) + "px");
-            $("#tooltip").append("<img src='angel.png'/>");
+            $("#tooltip").append("<img src='angel.png' width='25' height='25'/>");
 
         });
         //鼠标离开表格隐藏悬浮框

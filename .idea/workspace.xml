@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb1f5c8c-f572-4563-a7ef-2f9ab5683cfd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautifuljiao.html" afterPath="$PROJECT_DIR$/beautifuljiao.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bt.html" afterPath="$PROJECT_DIR$/bt.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="beautifuljiao.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/beautifuljiao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state relative-caret-position="787">
+              <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -171,8 +170,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/beautifuljiao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state relative-caret-position="787">
+          <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
