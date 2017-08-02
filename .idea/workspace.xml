@@ -17,18 +17,22 @@
       <file leaf-file-name="beautifuljiao.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/beautifuljiao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="593">
+              <caret line="51" column="62" lean-forward="false" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1501653242000" expanded="true" signature="2149:2176" ph="..." />
-                <marker date="1501653242000" expanded="true" signature="2149:2189" ph="..." />
+                <marker date="1501654079000" expanded="true" signature="2163:2246" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>body</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,12 +144,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/beautifuljiao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="593">
+          <caret line="51" column="62" lean-forward="false" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501653242000" expanded="true" signature="2149:2176" ph="..." />
-            <marker date="1501653242000" expanded="true" signature="2149:2189" ph="..." />
+            <marker date="1501654079000" expanded="true" signature="2163:2246" ph="..." />
           </folding>
         </state>
       </provider>
