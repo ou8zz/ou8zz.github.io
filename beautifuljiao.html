@@ -21,7 +21,7 @@
 <style type="text/css">
   .pace-done{background-color: rgb(1, 40, 51);}
   .intro{color: antiquewhite; margin-top: 10%; height: 100%; width: 100%; z-index: 10}
-  /*.intro {cursor: url("/angel.png"), default; }*/
+  .intro {cursor: url("/angel.png"), default; }
 </style>
   
 </head>
@@ -37,20 +37,41 @@
     共有5种不同的打字机效果，其中有的效果文字在翻转的同时还不断变化，效果很酷。
   </div>
 
+  <div id="tooltip"></div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="/js/font.js"></script>
 <script src="/js/script.js"></script>
 <script type="text/javascript">
+    //获取鼠标坐标
+    function mousePosition(ev){
+        ev = ev || window.event;
+        if(ev.pageX || ev.pageY){
+            return {x:ev.pageX, y:ev.pageY};
+        }
+        return {
+            x:ev.clientX + document.body.scrollLeft - document.body.clientLeft,
+            y:ev.clientY + document.body.scrollTop - document.body.clientTop
+        };
+    }
+
     window.onload = function(){
-        $("body").click(function() {
-            var e = event || window.event;
+        //hover某处显示悬浮框
+        $("body").mouseover(function(e){
+            //获取鼠标位置函数
+            var mousePos = mousePosition(e);
+            var  xOffset = 20;
+            var  yOffset = 25;
+            $("#tooltip").css("display","block").css("position","absolute").css("top",(mousePos.y - yOffset) + "px").css("left",(mousePos.x + xOffset) + "px");
+            $("#tooltip").append("<img src='angel.png'/>");
 
-            $("body").append("<div style='position:absolute; height: 20px; width: 20px margin-top: "+e.pageX+"; margin-left: "+e.pageY+"'><img src='angel.png' /></div>")
-
-            //alert("screenX：" + e.screenX + "screenY : " + e.screenY);
-        })
+        });
+        //鼠标离开表格隐藏悬浮框
+        $("body").mouseout(function(){
+            $("#tooltip").empty();
+            $("#tooltip").css("display","none");
+        });
 
         $(".intro").flipping_text();
 
