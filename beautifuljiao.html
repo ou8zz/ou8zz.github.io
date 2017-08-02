@@ -46,7 +46,10 @@
     window.onload = function(){
         $("body").click(function() {
             var e = event || window.event;
-            alert("screenX：" + e.screenX + "screenY : " + e.screenY);
+
+            $("body").append("<img src='angel.png' style='margin-top: "+e.screenX+"; margin-left: "+e.screenY+"'/>")
+
+            //alert("screenX：" + e.screenX + "screenY : " + e.screenY);
         })
 
         $(".intro").flipping_text();
