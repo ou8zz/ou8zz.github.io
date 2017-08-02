@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   
-  <title>beautifuljiao</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="jjjjjjjjj">
+<title>beautifuljiao</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="jjjjjjjjj">
 <meta property="og:type" content="website">
 <meta property="og:title" content="beautifuljiao">
 <meta property="og:url" content="https://ou8zz.github.io/index.html">
@@ -14,31 +14,29 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="beautifuljiao">
 <meta name="twitter:description" content="jjjjjjjjj">
-  
-    <link rel="alternate" href="/atom.xml" title="beautifuljiao" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-
+<link rel="alternate" href="/atom.xml" title="beautifuljiao" type="application/atom+xml">
+<link rel="icon" href="/img/angel.png">
+<link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/css/style.css">
 <style type="text/css">
   .pace-done{background-color: rgb(1, 40, 51);}
   .intro{color: antiquewhite}
+  .intro {cursor: url("img/p.jpg"), default; }
 </style>
   
 </head>
 
-<body id=“by” style="overflow-y: hidden" class="  pace-done">
+<body id=“by” style="overflow-y: hidden" class="pace-done">
 
-
-<div class="intro">这个打字机特效插件允许你通过设置data-delay属性来定义每个文字的动画时间，并使文字按一定的序列一一打印。
+<div class="intro">
+这个打字机特效插件允许你通过设置data-delay属性来定义每个文字的动画时间，并使文字按一定的序列一一打印。
 data-delay
-为了让开发者使用方便，这个打字机特效插件将自动计算每个文字的打印时间，不需要你去计算它们的时间总和，下面是一个例子： </h2>
-          <h3 data-delay="9000" class="intro">这是一款使用jQuery制作的炫酷文字翻转打字机特效插件。该打字机特效中文字以3d翻转的方式一个个的出现，形成打字机效果，共有5种不同的打字机效果，其中有的效果文字在翻转的同时还不断变化，效果很酷。</div> 
+为了让开发者使用方便，这个打字机特效插件将自动计算每个文字的打印时间，不需要你去计算它们的时间总和，
+下面是一个例子：这是一款使用jQuery制作的炫酷文字翻转打字机特效插件。该打字机特效中文字以3d翻转的方式一个个的出现，形成打字机效果，
+共有5种不同的打字机效果，其中有的效果文字在翻转的同时还不断变化，效果很酷。 
+</div>
+
+<div data-delay="9000" class="intro"></div> 
   
 
 <div id="mydiv" style="padding: 0px; margin: 0px;"><canvas width="100%" height="100%" style="position: fixed; top: 0px; left: 0px; z-index: -2;"></canvas><div>
@@ -46,8 +44,8 @@ data-delay
     
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="/js/font.js"></script>
 <script src="/js/script.js"></script>
 <script type="text/javascript">
@@ -58,7 +56,7 @@ data-delay
         vy:  4,//点y轴速度
         height: 2,//点高宽，其实为正方形，所以不宜太大
         width: 2,
-        count: 100,//点个数
+        count: 250,//点个数
         color: "121, 162, 185",//点颜色
         stroke: "130,255,255",//线条颜色
         dist: 6000,//点吸附距离
@@ -67,22 +65,7 @@ data-delay
     }
     //调用
     CanvasParticle(config);
-
-
-    //Create game
-          // var game = new Phaser.Game(640, 480, Phaser.CANVAS, "game");
-          // //Game states
-          // game.state.add('boot', Main.Boot);
-          // game.state.add('preloader', Main.Preloader);
-          // game.state.add('logo', Main.Logo);
-          // game.state.add('menu', Main.Menu);
-          // game.state.add('game', Main.Game);
-          // //Boot game
-          // game.state.start('boot');
-
-
-
-$(".intro").flipping_text();
+  $(".intro").flipping_text();
 
 };
 
