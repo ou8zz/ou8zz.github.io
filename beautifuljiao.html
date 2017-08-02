@@ -66,8 +66,9 @@
 };
 
 
-    function ck(e, o) {
-        alert(e.width + " " + e.height);
+    function ck(event, o) {
+        var e = event || window.event;
+        alert({'x':e.screenX,'y':screenY});
 
 
     }
