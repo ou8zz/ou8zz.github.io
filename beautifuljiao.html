@@ -62,12 +62,9 @@
     }
     //调用
     CanvasParticle(config);
-}
 
 
-
-        window.onload = function() {
-          //Create game
+    //Create game
           var game = new Phaser.Game(640, 480, Phaser.CANVAS, "game");
           //Game states
           game.state.add('boot', Main.Boot);
@@ -77,7 +74,10 @@
           game.state.add('game', Main.Game);
           //Boot game
           game.state.start('boot');
-        };
+};
+
+
+
 
   </script>
 <script src="/js/canvas.js"></script>
